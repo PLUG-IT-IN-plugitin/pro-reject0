@@ -3,8 +3,12 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'pro-reject#0 · Realtime in lock',
+  description:
+    'Trains, cars, and infrastructure share one real-time picture and stay in sync to the millisecond.',
+  openGraph: {
+    images: ['/images/realtime-crosshairs.png'],
+  },
   generator: 'v0.app',
   icons: {
     icon: [
